@@ -4,7 +4,7 @@ import pandas as pd
 def load_data(file_path):
     """Load dataset from a CSV file."""
     try:
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(/Users/yoshithreddyvintha/Desktop/Trips_Full Data.csv)
         print("Data successfully loaded!")
         return df
     except FileNotFoundError:
